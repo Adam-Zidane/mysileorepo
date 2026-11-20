@@ -1,7 +1,0 @@
-Origin: MySileoRepo
-Label: MySileoRepo
-Suite: stable
-Codename: ios
-Architectures: iphoneos-arm64
-Components: main
-Description: Personal Sileo repository
