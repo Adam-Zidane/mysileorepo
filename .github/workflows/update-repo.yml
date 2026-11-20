@@ -1,4 +1,3 @@
-```yaml
 name: Update Sileo Repository
 
 on:
@@ -6,10 +5,8 @@ on:
     branches:
       - main
     paths:
-      - '*.deb'
-      - '**/*.deb'
+      - '**.deb'
       - '.github/workflows/update-repo.yml'
-
   workflow_dispatch:
 
 permissions:
@@ -38,7 +35,7 @@ jobs:
 
       - name: Generate Release
         run: |
-          cat > Release << 'EOF'
+          cat > Release <<'EOF'
           Origin: ZidaneAdam
           Label: ZidaneAdam Sileo Repository
           Suite: stable
@@ -50,7 +47,7 @@ jobs:
 
           apt-ftparchive release . >> Release
 
-      - name: Commit Updated Repository Metadata
+      - name: Commit Updated Metadata
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -58,7 +55,6 @@ jobs:
           git add Packages Packages.gz Release
 
           if ! git diff --cached --quiet; then
-            git commit -m "Automatically update Sileo repository metadata"
+            git commit -m "Update Sileo repository metadata"
             git push
           fi
-```
