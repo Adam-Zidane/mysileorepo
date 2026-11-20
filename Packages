@@ -1,0 +1,16 @@
+Package: com.local.tradingviewfix
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: Zidane Adam
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs/com.local.tradingviewfix_1.0.4_iphoneos-arm64.deb
+Size: 4684
+MD5sum: ed5c9d810d3879dcfb85d7fb321a44f1
+SHA1: 0eb0619a00a024d16bc462d697672881a6ee5cd9
+SHA256: 35d253b2813fb063b2fc141a2019f9f48978c04afcd046c3e7a6a4cbd0fafaa8
+Section: Tweaks
+Description: TradingView full view tanpa gap
+Author: Zidane Adam
+Name: TradingViewFix
+
