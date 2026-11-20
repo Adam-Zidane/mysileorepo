@@ -1,7 +1,17 @@
-Origin: MySileoRepo
-Label: MySileoRepo
-Suite: stable
-Codename: ios
-Architectures: iphoneos-arm64
-Components: main
-Description: Personal Sileo repository
+Date: Fri, 20 Nov 2026 08:26:55 +0000
+MD5Sum:
+ 065bcf12649d92fac9cd5f8f1430cf23              483 Packages
+ b2066ae258c21483d1182d312a7365cf              352 Packages.gz
+ 9299f3cbc37cf11c332bf0ef0046aa9e               38 Release
+SHA1:
+ 0357788f52e7253f5e2c260895f9b81d7d459131              483 Packages
+ 65375d633bbc221af7312a5c725670233818b1e6              352 Packages.gz
+ ed938cdc35a20ee3c4039440a4c1841ceaf81b1e               38 Release
+SHA256:
+ 67017324234c3063f40f6f3336f472a1406245090d2e2be2f12c48381ff308e3              483 Packages
+ 59c02eda9e25f9a680320d1f96451227ca2deef4c9d48b808631225ec7c647dc              352 Packages.gz
+ fe5fbc645e7d1b0ba244324bd3e5b90826c03482069cac33d08d71d9cec05091               38 Release
+SHA512:
+ d4f4c8826e66f6a2128e84ac9b66b81754afa361319f6aa553789de092a0a4e2d78fb41b23e179a5bce6c5cd49887520c176f69bf16ea66d7fb0624f3618b19a              483 Packages
+ dff7f173c5cd60660508c8566e1efd48b2f6c1a87773f431f4c8cb7eef29067e0a328dc5dcf3224c3457434754e8496f120e079a90da6792589f1bc7c2e6ac78              352 Packages.gz
+ 9b3385850fba01641b510145f1cd72035ca646c79794b304018d9fdf0d2e1810a312c483b4b103605c7b7535b7b4b7ca2561afef4b5d66fda38464a0ddbe8fab               38 Release
