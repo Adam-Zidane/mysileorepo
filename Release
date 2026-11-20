@@ -1,17 +1,24 @@
-Date: Fri, 20 Nov 2026 08:29:51 +0000
+Origin: ZidaneAdam
+Label: ZidaneAdam Sileo Repository
+Suite: stable
+Codename: ios
+Architectures: iphoneos-arm64
+Components: main
+Description: Personal iOS Tweak Repository
+Date: Fri, 20 Nov 2026 08:59:40 +0000
 MD5Sum:
  718bc9ad29756b6590ec006a8ed3de65             3683 Packages
- dec962076cae40c3582f7769f4784e9c             1695 Packages.gz
- 7d4483a4fc55bd19926a8ea80d4b7ab3               38 Release
+ 550ed37c6687c340597ae480aea2c6ad             1686 Packages.gz
+ 7fb4334b60b7035f5bcf05b59bc9f26e              210 Release
 SHA1:
  90b2ed9bd130a1a123bc38b9c6cfcf1a56ac4104             3683 Packages
- 397bcb86d1efe593d7dba3125f98055abdabefe3             1695 Packages.gz
- f4b2562bd5c8813a95880a2e68554d1ee03200d2               38 Release
+ 3575cf7c6defba16d8452f31d48062285172aee2             1686 Packages.gz
+ a9c9edc29b3b2f83b73b9874c09db909d4d0bbef              210 Release
 SHA256:
  6623ded0de64a6c5a3e8b08c7e64156d0858e2cf0a6371109a8f1cce30d97e6e             3683 Packages
- b5536f33887572d60cdbb2199f0199a288d6c9664f823b2662f362ca5dcd05c0             1695 Packages.gz
- 1b0af0e5be2c86baad0d2f4df283d0f28fdf387f3ace98208825db717b0c186a               38 Release
+ 5e40964a0a34fa8f833d902fd4845f1e5efd413bcc3f42db962e08c4e987db62             1686 Packages.gz
+ 140f3e655dfe69e81e607d72f620d6e64728e49f214adce8ad6eb4ee7b5a3fa3              210 Release
 SHA512:
  2b2fb33580356921300abc4091dd962e95b0c0888233ea2915cf67a25d2d681a01536d828fd848ea3a66852e60c2ef8824391a792ad12d09b71b1a7c8560cb66             3683 Packages
- 26c7f044a4e4e19104944a411ff73044947cd63a1a04159114ebccd23fb2838a253cf14feb0121734c2dbc48efbee6dbcf45d31d9e7230d79a198d115b8ceb66             1695 Packages.gz
- c956639c964e4c6652f795a2dae4d73d18ae91572b45c1c0359e4620edee9855afba2e1c2195c0b18b0c804df4f847eefabc2f7273d508542076bd1ff9bc786a               38 Release
+ 8df455fa01b73a8b1cb7fe253104823c03ba17e7f359f3bbf5fa3f54f1324f4e7dea664aa1075b11f49d590fd2ef3732b52c71c8c5ee6ebc515c1f162356eae7             1686 Packages.gz
+ 8740120a52b310e3596190285e5e940c230aeedd2377cae368d2a0cb0625180487a555057f5d594ba966956cadde5c3521bf36025e8b9674d569b6fd9fa8c8f0              210 Release
