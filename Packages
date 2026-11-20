@@ -14,3 +14,75 @@ Description: TradingView full view tanpa gap
 Author: Zidane Adam
 Name: TradingViewFix
 
+Package: com.nekojb.dynamicislandpill
+Version: 1.51.0
+Architecture: iphoneos-arm64
+Maintainer: NekoJb
+Installed-Size: 1036
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./com.nekojb.dynamicislandpill_1.51.0_iphoneos-arm64.deb
+Size: 184244
+MD5sum: 2cfc978424cd7adf5701e4ee817b3c78
+SHA1: 9efd1d6c1a42414b703d9156a480ef264bd589de
+SHA256: 1fcf51764db851748bbdc6b781f88cb69002651cc8f219d16c52def91a4f433c
+Section: Tweaks
+Description: Dynamic Island for iOS 15 devices
+Author: NekoJb
+Depiction: http://jtisvn.github.io/depiction/DynamicPill.html
+Icon: https://jtisvn.github.io/sectionIcons/DynamicPill.png
+Name: Dynamic Pill(Rootless)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/DynamicPill.json
+
+Package: com.rain.rainmhz
+Version: 6.13.0-1
+Architecture: iphoneos-arm64
+Maintainer: Rain
+Installed-Size: 1116
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.altlist (>= 1.0.4)
+Filename: ./com.rain.rainmhz_6.13.0-1_iphoneos-arm64.deb
+Size: 173336
+MD5sum: a82a5913ad7cac90f361360af609750e
+SHA1: 18e8cb87f4a0d36e1450d6a64580c6b6c367d239
+SHA256: 4dea9b633e56227588e32abe1de421fa1a7a5162a1517efb1720e0ed2ce40591
+Section: Tweaks
+Description: Rain的CPU性能与稳帧控制插件
+ 通过IOKit控制Apple ARM DVFS，支持低发热、均衡、极限性能、智能与稳帧模式
+ 包含动态仪表盘、分级设置、场景预设、温控、性能监控与智能后台管控
+Tag: role::hacker, purpose::extension
+Author: Rain
+Icon: https://huayuarc.github.io/icon/cpumhz.jpg
+Name: Rain的Mhz
+
+Package: com.supremeinspirit.hipcharge
+Version: 1.6.1
+Architecture: iphoneos-arm64
+Maintainer: supremeinspirit
+Depends: firmware (>= 15.0)
+Filename: ./com.supremeinspirit.hipcharge_1.6.1_iphoneos-arm64.deb
+Size: 16280
+MD5sum: 8a4257f25dcb5c8dc56f55cc6b89d39d
+SHA1: 11c6800ded767017aa45bc323614210ff6056c8a
+SHA256: 64c0a46df20941581485d259ba51798832bb1947e35ed6e48bc9c0d3c81666df
+Section: Tweaks
+Description: Enables Simulate HIP while charging, disables it when unplugged.
+Author: supremeinspirit
+Name: HIPCharge
+
+Package: com.zidaneadam.modernios
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Zidane Adam
+Depends: ldid, mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.jtis.little12, com.blu-tek.27status, com.local.tradingviewfix, com.hius.gesturesi11, com.hius.halfipad, com.vitataf.homegesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Replaces: com.jtis.little12, com.blu-tek.27status, com.local.tradingviewfix, com.binksalex.fluidify, com.hius.halfipad, com.vitataf.homegesture, com.ioscreatix.littlex, com.ryannair05.little11
+Provides: com.hius.gesturesi11, com.hius.halfipad, com.vitataf.homegesture, com.ioscreatix.littlex, com.ryannair05.little11
+Filename: ./com.zidaneadam.modernios_1.0.3_iphoneos-arm64.deb
+Size: 230252
+MD5sum: 7bf9667a1f8291235f39567968e89da4
+SHA1: 6d568f98cb10d1a3911e46cd4fd0ebfbbf126a11
+SHA256: a488f86c217515b78a20e0caaadf7d36d706e0d7489fab934d9b2dbb10c1781b
+Section: Tweaks
+Description: Little12 + TradingViewFix 1.0.4 dalam satu paket (TradingView full view tanpa gap)
+Author: Zidane Adam (TradingViewFix); Ryan Nair (Little12)
+Name: Zidane Modern iOS Pack
+
