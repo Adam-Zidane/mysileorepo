@@ -1,3 +1,4 @@
+```yaml
 name: Update Sileo Repository
 
 on:
@@ -8,6 +9,8 @@ on:
       - '*.deb'
       - '**/*.deb'
       - '.github/workflows/update-repo.yml'
+
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -23,24 +26,39 @@ jobs:
       - name: Install Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y dpkg-dev apt-utils
+          sudo apt-get install -y dpkg-dev apt-utils gzip
 
       - name: Generate Packages
         run: |
           dpkg-scanpackages --multiversion . /dev/null > Packages
 
-      - name: Compress Packages
+      - name: Generate Packages.gz
         run: |
-          gzip -9 -f -k Packages
+          gzip -9 -n -c Packages > Packages.gz
 
       - name: Generate Release
         run: |
-          apt-ftparchive release . > Release
+          cat > Release << 'EOF'
+          Origin: ZidaneAdam
+          Label: ZidaneAdam Sileo Repository
+          Suite: stable
+          Codename: ios
+          Architectures: iphoneos-arm64
+          Components: main
+          Description: Personal iOS Tweak Repository
+          EOF
 
-      - name: Commit Repository Metadata
+          apt-ftparchive release . >> Release
+
+      - name: Commit Updated Repository Metadata
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add Packages Packages.gz Release
-          git diff --cached --quiet || git commit -m "Automatically update Sileo repository"
-          git push
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Automatically update Sileo repository metadata"
+            git push
+          fi
+```
