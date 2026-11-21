@@ -1,3 +1,19 @@
+Package: com.chargelimiter.mod
+Version: 1.17.5-1
+Architecture: iphoneos-arm64
+Maintainer: Zidane Adam
+Depends: firmware (>= 13.0)
+Filename: ./com.chargelimiter.mod_1.17.5-1_iphoneos-arm64.deb
+Size: 799396
+MD5sum: ef5126ec907bfefcfacc2fa0042a7e98
+SHA1: bef1f9262753a0b7f842479753f2caa317a42c46
+SHA256: 0c181b0e1163255f17ab9cd6fe59c3785ecfec7891567b2756b5e941d53bd42b
+Section: Applications
+Priority: optional
+Description: ChargeLimiter (modifikasi) - pembatas pengisian baterai, repack untuk iPhone 7 Plus / iOS 15 rootless
+Author: Zidane Adam (repack); tune (Modified ChargeLimiter); lich4 (ChargeLimiter asli)
+Name: Modified ChargeLimiter
+
 Package: com.local.tradingviewfix
 Version: 1.0.4
 Architecture: iphoneos-arm64
