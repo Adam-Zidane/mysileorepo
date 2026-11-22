@@ -102,3 +102,20 @@ Description: Little12 + TradingViewFix 1.0.4 dalam satu paket (TradingView full 
 Author: Zidane Adam (TradingViewFix); Ryan Nair (Little12)
 Name: Zidane Modern iOS Pack
 
+Package: com.zidaneadam.rainmhztools
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Zidane Adam
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.zidaneadam.rainclcompat, com.zidaneadam.rainmhzguide
+Replaces: com.zidaneadam.rainclcompat, com.zidaneadam.rainmhzguide
+Filename: ./com.zidaneadam.rainmhztools_1.0.0_iphoneos-arm64.deb
+Size: 10632
+MD5sum: f8d01afcc05e798227b366b3e77236b7
+SHA1: 05e686a87088215a9135201e22a59f8eef22a16e
+SHA256: 04bd0d45823b7351acf7bbc5219252d33a19cac91dde8d9608a2ca5d43cdd223
+Section: Tweaks
+Description: RainMhz User Guide (English) + toggle kompatibilitas RainMhz x ChargeLimiter dalam satu paket
+Author: Zidane Adam
+Name: RainMhz Tools (Guide + ChargeLimiter Compatibility)
+
