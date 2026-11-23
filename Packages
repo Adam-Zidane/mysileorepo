@@ -69,6 +69,22 @@ Author: Rain
 Icon: https://huayuarc.github.io/icon/cpumhz.jpg
 Name: Rain's Mhz
 
+Package: com.scalefix.tweak
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: you
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./com.scalefix.tweak_0.1.0_iphoneos-arm64.deb
+Size: 7492
+MD5sum: 0c02c4540ac51bcb94254c5e560cb087
+SHA1: f12023a7a9d27300f0af10f36377f515b72084bc
+SHA256: 6b8d55fb349468f24e8e962a31ad71e1638445163ae5dc158f8676577297f446
+Section: Tweaks
+Description: Experimental UI scale override (makes a 960px canvas look like a ~390pt screen), with auto-revert
+Author: you
+Name: ScaleFix
+
 Package: com.supremeinspirit.hipcharge
 Version: 1.6.1
 Architecture: iphoneos-arm64
@@ -118,4 +134,22 @@ Section: Tweaks
 Description: RainMhz User Guide (English) + toggle kompatibilitas RainMhz x ChargeLimiter dalam satu paket
 Author: Zidane Adam
 Name: RainMhz Tools (Guide + ChargeLimiter Compatibility)
+
+Package: tf.festival.rescale2
+Version: 2.0-fix1
+Architecture: iphoneos-arm64
+Maintainer: Nezuko
+Installed-Size: 864
+Depends: ldid, mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./tf.festival.rescale2_2.0-fix1_iphoneos-arm64.deb
+Size: 169172
+MD5sum: a07baf9f8375afc580848e1e280db89d
+SHA1: 0b5bb1b450df06e63e5891cb8882699d2d2466fe
+SHA256: e279e0f46d2e9f0ad64d1ab5f380f972275c106ca36c0290fb61a4c110825ed6
+Section: Tweaks
+Description: A modern (and safe) Upscale alternative!
+Author: Sniper_GER & Nezuko <sniperger@festival.ml>
+Icon: https://siieo.github.io/sileodepictions/ReScale2/icon.png
+Name: Re:Scale 2
+Sileodepiction: https://siieo.github.io/sileodepictions/ReScale2/ReScale2.json
 
