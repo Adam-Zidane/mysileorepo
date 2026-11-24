@@ -69,6 +69,22 @@ Author: Rain
 Icon: https://huayuarc.github.io/icon/cpumhz.jpg
 Name: Rain's Mhz
 
+Package: com.scalefix.tweak
+Version: 0.3.0
+Architecture: iphoneos-arm64
+Maintainer: you
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./com.scalefix.tweak_0.3.0_iphoneos-arm64.deb
+Size: 7752
+MD5sum: f237783dc744ba2e66d8c5c771279d91
+SHA1: 3a8b334ab3411137f3c525e57450b012bdc069f2
+SHA256: 4fe75c2c5e9c34c2ccd22c6501a54218d7b793bc9aa3471b5245d4438bb47d7c
+Section: Tweaks
+Description: Experimental UI scale override (750x1334 canvas at scale 2 = iPhone 8 layout), with auto-revert
+Author: you
+Name: ScaleFix
+
 Package: com.supremeinspirit.hipcharge
 Version: 1.6.1
 Architecture: iphoneos-arm64
