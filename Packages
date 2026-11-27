@@ -49,6 +49,22 @@ Icon: https://jtisvn.github.io/sectionIcons/DynamicPill.png
 Name: Dynamic Pill(Rootless)
 Sileodepiction: https://jtisvn.github.io/sileodepictions/DynamicPill.json
 
+Package: com.nounsupported.tweak
+Version: 0.2.0
+Architecture: iphoneos-arm64
+Maintainer: you
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./com.nounsupported.tweak_0.2.0_iphoneos-arm64.deb
+Size: 5740
+MD5sum: e5ca0fae9864383f837596852ad6368d
+SHA1: 5bd6d201a17c862f9f8b2cefa7343c76763a1195
+SHA256: 818fc782e0024020979cd57023ce1766aea723e6d77f73e8ef712be3b3f5cc6e
+Section: Tweaks
+Description: SupportTheUnsupported-style fix for "unsupported" charging cables (SpringBoard, rootless)
+Author: you
+Name: NoUnsupported
+
 Package: com.rain.rainmhz
 Version: 6.13.0-1
 Architecture: iphoneos-arm64
