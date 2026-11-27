@@ -5,20 +5,20 @@ Codename: ios
 Architectures: iphoneos-arm64
 Components: main
 Description: Personal iOS Tweak Repository
-Date: Fri, 27 Nov 2026 13:50:19 +0000
+Date: Fri, 27 Nov 2026 13:56:39 +0000
 MD5Sum:
- 437ada8195662641601866f724d61bd9             6927 Packages
- 5d9143e0d418e888aaff1197ec1c3614             2741 Packages.gz
- 47a2d776ae75476005a55f16492f9135              210 Release
+ fce661da34038cd0669284a604dcd0c4             8185 Packages
+ 570c2f6c4f32babc56bd63f94987f550             3172 Packages.gz
+ 5135e949c0a6de2c270c6084bdb3e68a              210 Release
 SHA1:
- 7e96ff67251113102f7c0d239dc144baefe5e615             6927 Packages
- 29a2d61346958be01efcdecfb8c9d770f79e049c             2741 Packages.gz
- 4f2ac5a04bd9f2ecf20f8dee1f62186bfb3067fd              210 Release
+ 246b7613ce97035c63d7981121813d936c4113ca             8185 Packages
+ d5f307c35f26766198d58be122cb79b222208b09             3172 Packages.gz
+ 66bf5f38f32bfb0ac26922ddb8bc0c99fb15e4a8              210 Release
 SHA256:
- e75bde448ae28ef75f8cfbe36d3d4f345bb452adba1735dfef7dbeb79f334ee8             6927 Packages
- 9e7b1127a12057a22e8f7a86b401db726bae0f1f87a69baaf40cbe42d8ea6bf5             2741 Packages.gz
- b64b07c894c9ee33e2adb66426df4fd211a0ebf94cfb5c0f4e8049bd5e15f795              210 Release
+ 872c43ed4e458908cda77fc078bcedb88f0ecaf42906ba430a96ad2ff88bacda             8185 Packages
+ ab3e0dfcf4214ed19d40ec23aec8b075e6febced67c5671af812c49594ccf8f8             3172 Packages.gz
+ 6640158c5ed1d230f60a507ce800bac5a0baf528b87e98b24b8ee7c39953c7ed              210 Release
 SHA512:
- 7871e3cfcdf2f1f76b434b396d32b453e76667b3080e94ce0b85cb6d864c6d679a8fe13f8ed1448c8b4b0e2789a44acbc4784156e0cc956aec1f2b3560001fa0             6927 Packages
- 0a3ba9468624243c9f3c29ba701c25bd251dbedb303456addd78dd5f9d13228c3730e5ef227830f7a071013d688a0828f6fa0568dd1aeb6caab08c7773285e22             2741 Packages.gz
- 12ec1ed543385c5a3b800b65e850e0fda7b9e8e77fd14cf42fb8ab6fb5f5a28a7d3d880c1f644acee9f6d6fe62ae6edb2f4dedf32f500ff28aed2dc4eb541be0              210 Release
+ 17e634cb76ab0f1466f5e4473ddeac65d1a1e8836ecc426f04e14806975a34448b5fd7bf95190b61e7a9b03ec52db48de983fc2ccbe460530ece4778b0b38541             8185 Packages
+ 50fbf90cbae08ce621c0b95bb06d157c584a1452f79bf9919d00c78d8e739453289a8026682796e3e1c55ff82efb67e3727cab4a62a97fea0e8d0c6f3884f243             3172 Packages.gz
+ a22c296770aacbaa23daa2c201fd946c95b823dbbe25478cb7d81800f57c380f236fe8ed9002c598a8400ffc56acc69784211791fc01627a342d7b7bd2a2212b              210 Release

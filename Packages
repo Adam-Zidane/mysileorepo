@@ -151,6 +151,40 @@ Description: RainMhz User Guide (English) + toggle kompatibilitas RainMhz x Char
 Author: Zidane Adam
 Name: RainMhz Tools (Guide + ChargeLimiter Compatibility)
 
+Package: logcleaner
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 4
+Depends: findutils, launchctl
+Filename: ./logcleaner_1.0.0_iphoneos-arm64.deb
+Size: 1300
+MD5sum: c3137dab9cb686f26ac99c76d482e64a
+SHA1: f0c5b4eb38103fb89b3771d193dd7e9ddb92cdef
+SHA256: 873d098077102abf3bbe0c8f6e73cb12db4d8501118f4be54a8832a4b58c5d6f
+Section: Administration
+Priority: standard
+Description: Automatically cleans up old crash reports collected by iOS.
+ Every day, or on boot, this will run a simple script that cleans up .ips
+ reports which are older than 3 days.
+
+Package: logcleaner
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Procursus Team <support@procurs.us>
+Depends: findutils, launchctl
+Filename: ./logcleaner_1.0.0_iphoneos-arm64e.deb
+Size: 1326
+MD5sum: c5bdd1ec2364ff9bc04ff60347122f19
+SHA1: b7d9fdab821bb882f62b1203602e2f3b05920ee4
+SHA256: 6d3301c321fdcda9ba07bc662d5a8e2d61bcb7a44bd501b3a5f1e3ac57e9358a
+Section: Administration
+Priority: standard
+Description: Automatically cleans up old crash reports collected by iOS.
+ Every day, or on boot, this will run a simple script that cleans up .ips
+ reports which are older than 3 days. (RootHide layout: iphoneos-arm64e,
+ no /var/jb prefix.)
+
 Package: tf.festival.rescale2
 Version: 2.0-fix1
 Architecture: iphoneos-arm64
