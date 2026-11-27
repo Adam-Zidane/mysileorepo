@@ -30,6 +30,25 @@ Description: TradingView full view tanpa gap
 Author: Zidane Adam
 Name: TradingViewFix
 
+Package: com.nekojb.dynamicislandpill
+Version: 1.51.0-en
+Architecture: iphoneos-arm64
+Maintainer: NekoJb
+Installed-Size: 1036
+Depends: ldid, mobilesubstrate, preferenceloader, firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./com_nekojb_dynamicislandpill_1_51_0_EN_iphoneos-arm64.deb
+Size: 186012
+MD5sum: 4e0f41b9c38822917945958e01926b8f
+SHA1: 3c623f402e7784087369c26e84b1272058868eb7
+SHA256: 85b4e2673589a0b87c4a53129b7e1616ce1216a77ad737d1567397758504f835
+Section: Tweaks
+Description: Dynamic Island for iOS 15 devices
+Author: NekoJb
+Depiction: http://jtisvn.github.io/depiction/DynamicPill.html
+Icon: https://jtisvn.github.io/sectionIcons/DynamicPill.png
+Name: Dynamic Pill(Rootless)
+Sileodepiction: https://jtisvn.github.io/sileodepictions/DynamicPill.json
+
 Package: com.rain.rainmhz
 Version: 6.13.0-1
 Architecture: iphoneos-arm64
