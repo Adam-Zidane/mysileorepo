@@ -30,6 +30,23 @@ Description: TradingView full view tanpa gap
 Author: Zidane Adam
 Name: TradingViewFix
 
+Package: com.nathan.watchdisable
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Nathan Senter
+Installed-Size: 136
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./com.nathan.watchdisable_1.0.1_iphoneos-arm64e.deb
+Size: 3866
+MD5sum: 49cb83f59c2218aa90b2a1214c9a32bb
+SHA1: ac7db3997083e687af8e28284e64193cd18e614b
+SHA256: e3a3bf35d0e6085b7de80dacfecf454649e515d22b6f93f5e79e798c308900b6
+Section: Tweaks
+Description: A tweak that disables watchdogd, if you want that i guess
+Author: Nathan Senter
+Name: WatchDisable
+
 Package: com.nekojb.dynamicislandpill
 Version: 1.51.0-en
 Architecture: iphoneos-arm64
@@ -48,6 +65,23 @@ Depiction: http://jtisvn.github.io/depiction/DynamicPill.html
 Icon: https://jtisvn.github.io/sectionIcons/DynamicPill.png
 Name: Dynamic Pill(Rootless)
 Sileodepiction: https://jtisvn.github.io/sileodepictions/DynamicPill.json
+
+Package: com.nounsupported.tweak
+Version: 0.2.0
+Architecture: iphoneos-arm64e
+Maintainer: you
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./com.nounsupported.tweak_0.2.0_iphoneos-arm64e (1).deb
+Size: 6648
+MD5sum: dc38535464783b49f19c5705b64e4867
+SHA1: 16a322613209ab05afa444de905077532c3544a0
+SHA256: fec7cfd37d63130ef6e306c10366776f944d294e5bf1439229c4c48495bef0e3
+Section: Tweaks
+Description: SupportTheUnsupported-style fix for "unsupported" charging cables (SpringBoard, rootless)
+Author: you
+Name: NoUnsupported
 
 Package: com.nounsupported.tweak
 Version: 0.2.0
@@ -111,6 +145,22 @@ Size: 16280
 MD5sum: 8a4257f25dcb5c8dc56f55cc6b89d39d
 SHA1: 11c6800ded767017aa45bc323614210ff6056c8a
 SHA256: 64c0a46df20941581485d259ba51798832bb1947e35ed6e48bc9c0d3c81666df
+Section: Tweaks
+Description: Enables Simulate HIP while charging, disables it when unplugged.
+Author: supremeinspirit
+Name: HIPCharge
+
+Package: com.supremeinspirit.hipcharge
+Version: 1.6.1
+Architecture: iphoneos-arm64e
+Maintainer: supremeinspirit
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: ./com.supremeinspirit.hipcharge_1.6.1_iphoneos-arm64e (1).deb
+Size: 17696
+MD5sum: a5e8497ade45e2b67ea0fe85a56104ff
+SHA1: 2780ce78560201ec037193f7be4a37d1f163e229
+SHA256: f0b7656b784ca58c47cd51158945e91c62a482ad55bc9325e2ee6aa647dcecb8
 Section: Tweaks
 Description: Enables Simulate HIP while charging, disables it when unplugged.
 Author: supremeinspirit
@@ -202,4 +252,82 @@ Author: Sniper_GER & Nezuko <sniperger@festival.ml>
 Icon: https://siieo.github.io/sileodepictions/ReScale2/icon.png
 Name: Re:Scale 2
 Sileodepiction: https://siieo.github.io/sileodepictions/ReScale2/ReScale2.json
+
+Package: xyz.cypwn.startupoptimizations
+Version: 2.3.6
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader, bash
+Filename: ./xyz.cypwn.startupoptimizations_2.3.6_iphoneos-arm64e.deb
+Size: 4368
+MD5sum: e42a10a30ed4bfe0baadaeaee80407a3
+SHA1: bdddb8974f6288b508827c4773c0d816f0a69ca6
+SHA256: 9d506a807f2a37c00e109fd65e88976828491fdd58806ca85d03f9e941ebfd25
+Section: System
+Description: Automatically optimize and clean your device after jailbreaking by removing unnecessary user-installed app data, system cache files, and performing additional system optimizations.
+  - ****`--- Optimizations ---`****
+  - Enhances multitasking via improved thread management.
+  - Optimizes memory handling for smoother performance.
+  - Prevents premature app termination under memory pressure.
+  - ****`--- Removed Cache ---`****
+  - /var/MobileAsset/AssetsV2
+  - /var/mobile/Media/PhotoData/Thumbnails/VideoKeyFrames/DCIM
+  - /var/mobile/Media/PhotoData/Thumbnails/V2/PhotoData/CPLAssets
+  - /var/mobile/Media/PhotoData/Thumbnails/V2/DCIM
+  - /var/mobile/Library/Mail/MessageData
+  - /var/mobile/Library/Mail/MessageData
+  - /var/mobile/Library/Mail/AttachmentData
+  - /var/mobile/Library/Caches
+  - /var/mobile/Containers/Data/Application/*/Library/Caches
+  - /var/db/uuidtext
+  - /var/db/diagnostics/Special
+  - /var/db/diagnostics/Signpost
+  - /var/db/diagnostics/Persist
+Author: LF, Korboy
+Depiction: https://repo.cypwn.xyz/depiction/3200
+Icon: https://repo.cypwn.xyz/packages/StartupOptimizations-Rootless/icon.png
+Name: StartupOptimizations
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3200
+
+Package: xyz.cypwn.stopautolaunchapps
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Conflicts: zp.stopautolaunchapps
+Filename: ./xyz.cypwn.stopautolaunchapps_1.1_iphoneos-arm64e.deb
+Size: 41414
+MD5sum: 396bd70620d301ae96b8deac9267f891
+SHA1: c9fd9a92ccc71be7ffe117caefa5cd48073d7400
+SHA256: 3d0001d2b9c4b3613a94bf87b40b40a29c6c18a8007110501cd3fe063371c4c4
+Section: System
+Description: Disable iOS's neural engine from automatically starting, and prevent apps from pre-loading in the background! iOS 15 and above only.
+ - Advantages: Saves memory, reduces app terminations in background. May decrease random reboots.
+Author: zqbb
+Depiction: https://repo.cypwn.xyz/depiction/3175
+Icon: https://repo.cypwn.xyz/packages/StopAutoLaunchApps-Rootless/icon.png
+Name: StopAutoLaunchApps
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3175
+
+Package: xyz.cypwn.systemmemoryresetfix
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Installed-Size: 104
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./xyz.cypwn.systemmemoryresetfix_2.0_iphoneos-arm64e.deb
+Size: 4018
+MD5sum: 6566cb1b8c2e4bf8c9c5f8a9a82ed843
+SHA1: 9a75fcde9fb003438dd3fad95a8ca2ec86d1bb9d
+SHA256: e00f7330907211710de9ae6ff59ec303015acc53135232163eeeff7a42133bdc
+Section: System
+Description: Prevent overnight userspace reboots triggered by maintenanced daemon when iCloud backup occurs. This is a must have for users with nightly reboots.
+Author: Pwn20wnd
+Depiction: https://repo.cypwn.xyz/depiction/2642
+Icon: https://repo.cypwn.xyz/packages/SystemMemoryResetFix-Rootless/icon.png
+Name: System Memory Reset Fix
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2642
 
